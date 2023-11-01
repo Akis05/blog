@@ -18,7 +18,8 @@ module.exports = {
     extend: {
       flex: {
         '5': '5 5 0%',
-        '2': '2 2 0%'
+        '2': '2 2 0%',
+        '4': '4 4 0%'
       },
       height: {
         calHeigth: 'calc(100vh - 100px)',

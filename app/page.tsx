@@ -1,7 +1,7 @@
+import Menu from "@/core/components/pages/Menu";
 import CardList from "@/core/components/pages/cardList";
 import CategoryList from "@/core/components/pages/categoryList";
 import Featured from "@/core/components/pages/featured";
-import { Menu } from "lucide-react";
 
 export default function Home() {
   return (
