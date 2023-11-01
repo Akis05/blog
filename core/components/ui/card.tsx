@@ -9,28 +9,36 @@ const Card = () => {
         <Image src="/p1.jpeg" alt="" fill className="object-cover" />
       </div>
 
-      <div className="flex flex-1 flex-col gap-7">
+      <div className="flex flex-1 flex-col gap-[30px]">
         <div className="">
           <span className="text-gray-400">
             {/* {item.createdAt.substring(0, 10)} -{" "} */}
-            25/05/2022
+            25/05/2022 - {"  "}
           </span>
-          <span className="bg-red-700 font-medium">catSlug</span>
+          <span className="text-red-700 font-medium">catSlug</span>
         </div>
         <Link href={`/posts/a`}>
-          <h1>Titre akis</h1>
+          <h1>Travel</h1>
         </Link>
         {/* <p className={styles.desc}>{item.desc.substring(0, 60)}</p> */}
-        <div
+        {/* <div
           className="text-lg font-light text-[#626262] "
           dangerouslySetInnerHTML={{ __html: "akis des cription" }}
-        />
-        <Link
-          href={`/posts/akis`}
-          className="border-b-red-600 border border-r-2 py-[2px] px-0"
-        >
-          Read More
-        </Link>
+        /> */}
+        <h3 className="text-lg font-light text-[#626262] ">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+          possimus porro dicta, voluptas fuga et eos inventore qui totam,
+          corporis, quis debitis culpa. Voluptatem non, eligendi quia earum
+          vitae consequatur.
+        </h3>
+        <div>
+          <Link
+            href={`/posts/akis`}
+            className="border-b-red-600 border-b-2 w-max  py-1 px-0"
+          >
+            Read More
+          </Link>
+        </div>
       </div>
     </div>
   );
