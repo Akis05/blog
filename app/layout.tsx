@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Footer from "@/core/components/pages/footer";
-import Navbar from "@/core/components/pages/navbar";
+import Footer from "@/core/components/sections/footer";
+import Navbar from "@/core/components/sections/navbar";
 import AuthProvider from "@/core/providers/AuthProvider";
 import { ThemeContextProvider } from "@/core/contexts/ThemeContext";
 import ThemeProvider from "@/core/providers/ThemeProvider";

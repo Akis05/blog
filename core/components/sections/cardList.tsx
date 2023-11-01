@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../ui/card";
-import Pagination from "../ui/pagination";
+import Card from "../section_ui/card";
+import Pagination from "../section_ui/pagination";
  
 const CardList = () => {
   return (

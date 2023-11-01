@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AuthLinks from "@/core/components/ui/authLinks";
-import ThemeToggle from "../ui/themeToggle";
+import AuthLinks from "@/core/components/section_ui/authLinks";
+import ThemeToggle from "../section_ui/themeToggle";
 
 const Navbar = () => {
   return (

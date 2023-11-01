@@ -1,10 +1,10 @@
 import React from "react";
-import MenuPosts from "../ui/menuPosts";
-import MenuCategories from "../ui/menuCategories";
+import MenuPosts from "../section_ui/menuPosts";
+import MenuCategories from "../section_ui/menuCategories";
 
 const Menu = () => {
   return (
-    <div className="flex-2 mt-16">
+    <div className="flex-2 mt-16 hidden lg:block">
       <h2 className="text-gray-500 text-base font-normal">{"What's hot"}</h2>
       <h1 className="text-[28px]">Most Popular</h1>
       <MenuPosts withImage={false} />
